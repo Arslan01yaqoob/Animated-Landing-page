@@ -1,0 +1,164 @@
+.bg-page {
+    background-color: #eb8124;
+    height: 110vh;
+    /* 80% of the viewport height */
+    border-radius: 3vw;
+    /* 3% of the viewport width */
+}
+
+
+.pastery {
+    background: linear-gradient(to right, #fafafa 0%, #f7d6badd 80%, #f3e8e7 100%);
+    height: 99vh;
+    margin: 2vw !important;
+    width: 95vw !important;
+    border-radius: 3vw;
+}
+
+.my-nav {
+    margin: 1.5vw;
+}
+
+.p-btn {
+    margin-left: 2.5vw;
+    /* 30px converted to vw */
+    width: 10vw;
+    /* 160px converted to vw */
+    height: 7.8vh;
+    /* 50px converted to vh */
+    border-radius: 10vw;
+    /* 40px converted to vw */
+    background: none;
+}
+
+.main-h {
+    font-size: 4vw;
+    font-weight: 700;
+    line-height: 1;
+    margin-left: 3vw;
+
+}
+
+.paratha-des {
+    margin-left: 3vw;
+    font-size: 1.5vw;
+    margin-top: 1vh;
+}
+
+.dish-img {
+    height: 400px;
+    text-align: center;
+}
+
+.o-btn {
+    margin-left: 3vw;
+    width: 8vw;
+    height: 7vh;
+    border-radius: 40px;
+    background: linear-gradient(to right, #f7d6badd, #eb8124);
+}
+
+.o-btn:hover {
+    background: none;
+
+}
+
+.p1-btn {
+    margin-top: 1vw;
+
+    margin-left: 3vw;
+    width: 8vw;
+    height: 7vh;
+    border-radius: 40px;
+    background: none;
+}
+
+.p1-btn:hover {
+    background: linear-gradient(to right, #f7d6badd, #eb8124);
+
+}
+
+.p2-btn {
+    margin-top: 2vw;
+    width: 8vw;
+    height: 7vh;
+    border-radius: 40px;
+    background: none;
+}
+
+.p2-btn:hover {
+    background: linear-gradient(to right, #f7d6badd, #eb8124);
+
+}
+
+@media (max-width:900px) {
+    .o-btn {
+        margin-left: 3vw;
+        width: 18vw;
+        height: 7vh;
+        border-radius: 40px;
+        background: linear-gradient(to right, #f7d6badd, #eb8124);
+    }
+
+
+    .p1-btn {
+        margin-left: 3vw;
+        width: 18vw;
+        height: 7vh;
+        border-radius: 40px;
+        background: none;
+    }
+
+
+    .p2-btn {
+        margin-top: 2px;
+        width: 18vw;
+        height: 7vh;
+        border-radius: 40px;
+        background: none;
+    }
+
+    .bg-page {
+        background-color: #eb8124;
+        height: 155vh;
+        /* 80% of the viewport height */
+        border-radius: 3vw;
+        /* 3% of the viewport width */
+    }
+
+
+    .pastery {
+        background: linear-gradient(to right, #fafafa 0%, #f7d6badd 80%, #f3e8e7 100%);
+        height: 145vh;
+        margin: 2vw !important;
+        width: 90vw !important;
+        border-radius: 3vw;
+    }
+
+
+    .dish-img {
+        margin-top: 10vh;
+        height: 60vw;
+        text-align: center;
+    }
+
+    .a-nav {
+        display: none;
+    }
+
+    .main-h {
+        font-size: 8vw;
+        font-weight: 700;
+        line-height: 1;
+        margin-left: 3vw;
+
+    }
+
+    .paratha-des {
+        margin-left: 3vw;
+        font-size: 2.5vw;
+        margin-top: 1vh;
+    }
+    
+
+}
