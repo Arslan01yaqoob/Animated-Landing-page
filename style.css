@@ -1,3 +1,15 @@
+.loader {
+    position: fixed;
+    z-index: 99;
+    background-color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+
 .bg-page {
     background-color: #eb8124;
     height: 110vh;
@@ -159,6 +171,6 @@
         font-size: 2.5vw;
         margin-top: 1vh;
     }
-    
+
 
 }
